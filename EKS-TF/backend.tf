@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "mario-game2hy2"
+    bucket = "s3-bucket-name"
     key    = "EKS/terraform.tfstate"
     region = "ap-south-1"
   }
